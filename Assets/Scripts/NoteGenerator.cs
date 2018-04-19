@@ -30,6 +30,10 @@ public class NoteGenerator : MonoBehaviour {
 	private Transform endPointsParent;
 	[SerializeField] private Transform[] endPoints;
 
+
+	// for gameplay
+	public static int totalNode = 0;
+
 	/// <summary>
 	/// Awake is called when the script instance is being loaded.
 	/// </summary>
@@ -69,6 +73,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band1Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band1, startPoints[(int) BandType.Band1], endPoints[(int) BandType.Band1], speed, useLerp);
+		totalNode ++;
 	}
 
 	public void OnBand2Trigger () {
@@ -80,6 +85,7 @@ public class NoteGenerator : MonoBehaviour {
 		if (!isBoostingUp) {
 			StartCoroutine (NoteBoostUp ());
 		}
+		totalNode ++;
 	}
 
 	public void OnBand3Trigger () {
@@ -88,6 +94,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band2Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band3, startPoints[(int) BandType.Band3], endPoints[(int) BandType.Band3], speed, useLerp);
+		totalNode ++;
 	}
 
 	public void OnBand4Trigger () {
@@ -96,6 +103,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band2Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band4, startPoints[(int) BandType.Band4], endPoints[(int) BandType.Band4], speed, useLerp);
+		totalNode ++;
 	}
 
 	public void OnBand5Trigger () {
@@ -104,6 +112,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band2Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band5, startPoints[(int) BandType.Band5], endPoints[(int) BandType.Band5], speed, useLerp);
+		totalNode ++;
 	}
 
 	public void OnBand6Trigger () {
@@ -112,6 +121,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band2Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band6, startPoints[(int) BandType.Band6], endPoints[(int) BandType.Band6], speed, useLerp);
+		totalNode ++;
 	}
 
 	public void OnBand7Trigger () {
@@ -120,6 +130,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band2Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band7, startPoints[(int) BandType.Band7], endPoints[(int) BandType.Band7], speed, useLerp);
+		totalNode ++;
 	}
 
 	public void OnBand8Trigger () {
@@ -128,6 +139,7 @@ public class NoteGenerator : MonoBehaviour {
 		go.name = "Band2Note";
 		go.transform.SetParent (notesParent);
 		go.GetComponent<FlowNote> ().InitNote (BandType.Band8, startPoints[(int) BandType.Band8], endPoints[(int) BandType.Band8], speed, useLerp);
+		totalNode ++;
 	}
 	#endregion
 

@@ -56,6 +56,7 @@ public class FlowNote : MonoBehaviour {
 	/// </summary>
 	/// <param name="other">The GameObject hit by the particle.</param>
 	void OnParticleCollision(GameObject other) {
+		UIRootController.instance.UpdateScoreText ();
 		Destroy (gameObject);
 	}
 }

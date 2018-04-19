@@ -31,8 +31,16 @@ public class GunShooter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.touchCount > 0) {
+			normalParticle.Play ();
+		}
 	}
+
+	#region Controller
+	public void StartShooting () {
+		normalParticle.Play ();
+	}
+	#endregion
 
 	#region Band Trigger
 	// band 4 -> increase emission only
