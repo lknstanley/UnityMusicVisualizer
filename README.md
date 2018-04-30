@@ -8,7 +8,7 @@ Bascially, it only contains one music atm.
 - Event based triggering system
 
 # How to play?
-1. Donwload the game from [release page](https://github.com/Aa22041100/Unity-Music-Visualizer/releases)`MusicVisualizerGame.zip`
+1. Donwload the `MusicVisualizerGame.zip` from [release page](https://github.com/Aa22041100/Unity-Music-Visualizer/releases)
 2. Unzip the file
 3. Launch `UnityMusicVisualizerGame.exe`
 4. Click `Play!`
