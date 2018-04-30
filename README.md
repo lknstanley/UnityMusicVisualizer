@@ -8,10 +8,10 @@ Bascially, it only contains one music atm.
 - Event based triggering system
 
 # How to play?
-1. Donwload the master zip from Github
-2. Unzip the zip file
-3. Launch Unity and open the project
-4. Click `Play`
+1. Donwload the game from [release page](https://github.com/Aa22041100/Unity-Music-Visualizer/releases)`MusicVisualizerGame.zip`
+2. Unzip the file
+3. Launch `UnityMusicVisualizerGame.exe`
+4. Click `Play!`
 
 # How to use another music clip?
 In current stage, you can not change the music clip in runtime. To change the music clip, please follow the steps that are listed below.
