@@ -7,6 +7,9 @@ Bascially, it only contains one music atm.
 - Object instantiate
 - Event based triggering system
 
+# Game Preview
+- [Youtube Video](https://youtu.be/iHtHIQcC1qA)
+
 # How to play?
 1. Donwload the `MusicVisualizerGame.zip` from [release page](https://github.com/Aa22041100/Unity-Music-Visualizer/releases)
 2. Unzip the file
@@ -26,7 +29,7 @@ If you are facing something unexpected, please leave a issue [here](https://gith
 
 # JuicyLab Description
 
-**Game Jam**
+**Background**
 - Title：Music Game / Music Visualizer
 - Prototype：[Watch Video](https://photos.app.goo.gl/bw5BmZibt8YwjF5U2)
 - Download：[Unity Audio Analysiser](https://gist.github.com/Aa22041100/941211c29d7298f5c669b184f89ed93d)
