@@ -22,4 +22,4 @@ In current stage, you can not change the music clip in runtime. To change the mu
 5. Click `Play` and enjoy it!
 
 # Bug or Issues?
-If you are facing something unexpected, please leave a issue here. I will try to response asap.
+If you are facing something unexpected, please leave a issue [here](https://github.com/Aa22041100/Unity-Music-Visualizer/issues). I will try to response asap.
