@@ -2,7 +2,7 @@
 It is a music shooting game.
 Bascially, it only contains one music atm.
 
-# What I have done?
+# What have I done?
 - Audio data analsting
 - Object instantiate
 - Event based triggering system
