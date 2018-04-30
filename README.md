@@ -6,7 +6,6 @@ Bascially, it only contains one music atm.
 - Audio data analsting
 - Object instantiate
 - Event based triggering system
--
 
 # How to play?
 1. Donwload the master zip from Github
