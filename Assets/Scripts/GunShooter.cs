@@ -31,9 +31,9 @@ public class GunShooter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.touchCount > 0) {
-			normalParticle.Play ();
-		}
+		// if (Input.touchCount > 0) {
+		// 	normalParticle.Play ();
+		// }
 	}
 
 	#region Controller
