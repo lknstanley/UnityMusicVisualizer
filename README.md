@@ -31,7 +31,7 @@ If you are facing something unexpected, please leave a issue [here](https://gith
 
 **Background**
 - Title：Music Game / Music Visualizer
-- Prototype：[Watch Video](https://photos.app.goo.gl/bw5BmZibt8YwjF5U2)
+- Prototype：[Watch Video](https://youtu.be/iHtHIQcC1qA)
 - Download：[Unity Audio Analysiser](https://gist.github.com/Aa22041100/941211c29d7298f5c669b184f89ed93d)
 - Demo (Music Visualizer)：[Download](https://drive.google.com/file/d/1BZuKzZDfvG5xBy8qRouXjKsovfD0vu9j/view?usp=sharing)
 
