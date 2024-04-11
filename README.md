@@ -17,15 +17,15 @@ Basically, it only contains one music atm.
 4. Click `Play!`
 
 # How to use another music clip?
-In the current stage, you can not change the music clip in runtime. To change the music clip, please follow the steps that are listed below.
+In the current stage, you can not change the music clip in runtime. To change the music clip, please follow the steps listed below.
 1. Import your music clip to `/Assets/Resources/Audio/`
 2. Goto `/Assets/Scenes` and double click `MainScene`
-3. Select `AudioPlayer,` which is under `MainCamera` in Hierarchy window
+3. Select `AudioPlayer,` which is under `MainCamera` in the Hierarchy window
 4. Drag the music clip to `Audio Clip` in Inspector window
 5. Click `Play` and enjoy it!
 
 # Bug or Issues?
-If you are facing something unexpected, please leave an issue [here](https://github.com/Aa22041100/Unity-Music-Visualizer/issues). I will try to respond asap.
+If you are facing something unexpected, please leave an issue [here](https://github.com/Aa22041100/Unity-Music-Visualizer/issues). I will try to respond ASAP.
 
 # JuicyLab Description
 
@@ -46,7 +46,7 @@ If you are facing something unexpected, please leave an issue [here](https://git
 
 **Useful Links**
 1. [>>Audio Spectrum<<](https://www.teachmeaudio.com/mixing/techniques/audio-spectrum)
-> To define different frequency group from audio data
+> To define different frequency groups from audio data
 2. [>>Unity Documentation<<](https://docs.unity3d.com/Manual/index.html) **for developer**
 > To find API descriptions and methods
 3. [>>Itch Game Assets Store<<](https://itch.io/) **for designer**
